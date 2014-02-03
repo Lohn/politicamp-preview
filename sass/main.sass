@@ -1,0 +1,243 @@
+// color variables
+$blue:        #344960
+$dark-blue:   #293A4D
+$green:       #47CB65
+$dark-green:  #39A652
+$white:       #ECF0F1
+
+// font variables
+$title-font: Open Sans Condensed, Verdana, Sans-serif
+$text-font:  Ubuntu, Verdana, Sans-serif
+
+// Overwritten variables
+$fa-font-path: "../Font-Awesome-master/fonts" !default
+
+// Stylesheet files
+@import ../assets/stylesheets/unsemantic-grid-responsive
+@import ../Font-Awesome-master/scss/font-awesome
+
+// General Styles
+*
+  font-family: $text-font
+  font-size: 18px
+  max-width: 100%
+
+body
+  background-color: $white
+  margin: 0
+  min-width: 390px
+
+// Text tags styles
+h1
+  font-family: $title-font
+  font-size: 3em
+  color: mix($blue, $white)
+  margin: 0
+  padding: 0
+  text-shadow: 1px 1px 0 #BBB
+
+h2
+  font-family: $title-font
+  margin: 0
+  font-size: 2em
+
+h3
+  font-family: $title-font
+  font-size: 1.5em
+  line-height: 1.2em
+  margin-top: 0
+
+// header styles
+header
+  background-color: $dark-blue
+  position: relative
+  &:after
+    content: ""
+    display: block
+    position: absolute
+    width: 100%
+    bottom: -24px
+    height: 29px
+    background: -webkit-linear-gradient(45deg, transparent 70%, $dark-blue 75%) 0 50%, -webkit-linear-gradient(130deg, transparent 70%, $dark-blue 75%) 0 50%
+    background: -moz-linear-gradient(-45deg, transparent 70%, $dark-blue 75%) 0 50%, -moz-linear-gradient(45deg, transparent 70%, $dark-blue 75%) 0 50%
+    background: -o-linear-gradient(-45deg, transparent 70%, $dark-blue 75%) 0 50%, -o-linear-gradient(45deg, transparent 70%, $dark-blue 75%) 0 50%
+    background: -ms-linear-gradient(-45deg, transparent 70%, $dark-blue 75%) 0 50%, -ms-linear-gradient(45deg, transparent 70%, $dark-blue 75%) 0 50%
+    background: linear-gradient(-45deg, transparent 70%, $dark-blue 75%) 0 50%, linear-gradient(45deg, transparent 70%, $dark-blue 75%) 0 50%
+    background-repeat: repeat-x
+    background-size: 20px 20px
+  > div
+    text-align: left
+    @extend .grid-container
+    h1
+      display: inline
+    #social
+      float: right
+      a
+        float: right
+        text-decoration: none
+        margin: 16px
+        opacity: 0.6
+        &:hover
+          opacity: 1
+        &:first-child
+          i
+            @extend .fa-facebook
+        &:last-child
+          i
+            @extend .fa-twitter
+        i
+          font-size: 2em
+          color: $white
+          display: block
+          @extend .fa
+
+// content styles
+section
+  padding: 40px
+  > div
+    @extend .grid-container
+
+#screenshots
+  position: relative
+  &:after
+    content: ""
+    width: 0
+    height: 0
+    border-right: 20px solid transparent
+    border-left: 20px solid transparent
+    border-bottom: 20px solid transparent
+    border-top: 20px solid $white
+    position: absolute
+    bottom: -40px
+    left: -10px
+    margin-left: 50%
+  article
+    color: $blue
+    @extend .prefix-5
+    @extend .grid-50
+    @extend .suffix-5
+    h3
+      margin-top: 16px
+    p
+      i
+        margin-right: 8px
+        @extend .fa
+        @extend .fa-check
+    a
+      background-color: $blue
+      display: block
+      text-decoration: none
+      padding: 0
+      margin-top: 32px
+      border-radius: 8px
+      color: $white
+      font-size: 2em
+      line-height: 3em
+      text-align: center
+      &:hover
+        background-color: $dark-blue
+  img
+    @extend .prefix-5
+    @extend .grid-30
+    padding-top: 20px
+  h2
+    color: $dark-green
+
+#advantages
+  background-color: $green
+  color: $dark-blue
+  article
+    text-align: center
+    @extend .grid-33
+    h2
+      color: $white
+      text-shadow: 1px 1px 0 $blue
+    p, h2
+      margin: 10px
+
+#professional
+  background-color: $dark-green
+  color: $white
+  h2, p
+    @extend .prefix-5
+    @extend .grid-60
+  img
+    border-radius: 50%
+    box-shadow: 3px 3px 0 3px $white
+    padding: 0
+    @extend .prefix-5
+    @extend .grid-30
+  h3
+    color: $dark-blue
+    text-align: center
+    margin-top: 16px
+    display: none
+    @extend .prefix-5
+    @extend .grid-60
+  form
+    @extend .prefix-5
+    @extend .grid-60
+    input, textarea
+      display: block
+      max-width: 400px
+      width: 100%
+      padding: 8px
+      margin: 8px 0
+      border: none
+    button
+      background-color: $blue
+      border: none
+      padding: 8px
+      cursor: pointer
+      color: $white
+      &:hover
+        background-color: $dark-blue
+
+#features
+  background-color: $blue
+  color: $white
+  div
+    h2
+      color: $white
+      margin-bottom: 16px
+    article
+      @extend .grid-33
+      h3
+        margin: 16px 0 0 0
+        text-align: center
+        color: $green
+        i
+          margin-right: 8px
+          margin-bottom: 8px
+          font-size: 1em
+          @extend .fa
+      &:nth-child(2) h3 i
+        @extend .fa-hand-o-right
+      &:nth-child(3) h3 i
+        @extend .fa-compass
+      &:nth-child(4) h3 i
+        @extend .fa-mobile
+      &:nth-child(5) h3 i
+        @extend .fa-file-text-o
+      &:nth-child(6) h3 i
+        @extend .fa-users
+      &:last-child h3 i
+        @extend .fa-check-square-o
+      p
+        text-align: center
+        margin: 16px 32px
+
+footer
+  background-color: $dark-blue
+  > div
+    @extend .grid-container
+    i
+      color: $white
+      font-size: 1.5em
+      margin: 8px
+      opacity: 0.6
+      @extend .fa
+      &:first-child
+        @extend .fa-css3
+      &:last-child
+        @extend .fa-html5
