@@ -51,20 +51,7 @@ h3
 header
   background-color: $dark-blue
   position: relative
-  &:after
-    content: ""
-    display: block
-    position: absolute
-    width: 100%
-    bottom: -24px
-    height: 29px
-    background: -webkit-linear-gradient(45deg, transparent 70%, $dark-blue 75%) 0 50%, -webkit-linear-gradient(130deg, transparent 70%, $dark-blue 75%) 0 50%
-    background: -moz-linear-gradient(-45deg, transparent 70%, $dark-blue 75%) 0 50%, -moz-linear-gradient(45deg, transparent 70%, $dark-blue 75%) 0 50%
-    background: -o-linear-gradient(-45deg, transparent 70%, $dark-blue 75%) 0 50%, -o-linear-gradient(45deg, transparent 70%, $dark-blue 75%) 0 50%
-    background: -ms-linear-gradient(-45deg, transparent 70%, $dark-blue 75%) 0 50%, -ms-linear-gradient(45deg, transparent 70%, $dark-blue 75%) 0 50%
-    background: linear-gradient(-45deg, transparent 70%, $dark-blue 75%) 0 50%, linear-gradient(45deg, transparent 70%, $dark-blue 75%) 0 50%
-    background-repeat: repeat-x
-    background-size: 20px 20px
+  
   > div
     text-align: left
     @extend .grid-container
@@ -99,20 +86,24 @@ section
 
 #screenshots
   position: relative
+  background-color: $dark-blue
   &:after
     content: ""
-    width: 0
-    height: 0
-    border-right: 20px solid transparent
-    border-left: 20px solid transparent
-    border-bottom: 20px solid transparent
-    border-top: 20px solid $white
+    display: block
     position: absolute
-    bottom: -40px
-    left: -10px
-    margin-left: 50%
+    width: 100%
+    bottom: -24px
+    left: 0
+    height: 29px
+    background: -webkit-linear-gradient(45deg, transparent 70%, $dark-blue 75%) 0 50%, -webkit-linear-gradient(130deg, transparent 70%, $dark-blue 75%) 0 50%
+    background: -moz-linear-gradient(-45deg, transparent 70%, $dark-blue 75%) 0 50%, -moz-linear-gradient(45deg, transparent 70%, $dark-blue 75%) 0 50%
+    background: -o-linear-gradient(-45deg, transparent 70%, $dark-blue 75%) 0 50%, -o-linear-gradient(45deg, transparent 70%, $dark-blue 75%) 0 50%
+    background: -ms-linear-gradient(-45deg, transparent 70%, $dark-blue 75%) 0 50%, -ms-linear-gradient(45deg, transparent 70%, $dark-blue 75%) 0 50%
+    background: linear-gradient(-45deg, transparent 70%, $dark-blue 75%) 0 50%, linear-gradient(45deg, transparent 70%, $dark-blue 75%) 0 50%
+    background-repeat: repeat-x
+    background-size: 20px 20px
   article
-    color: $blue
+    color: $white
     @extend .prefix-5
     @extend .grid-50
     @extend .suffix-5
@@ -134,8 +125,9 @@ section
       font-size: 2em
       line-height: 3em
       text-align: center
+      transition: all 400ms
       &:hover
-        background-color: $dark-blue
+        background-color: $dark-green
   img
     @extend .prefix-5
     @extend .grid-30
@@ -146,6 +138,18 @@ section
 #advantages
   background-color: $green
   color: $dark-blue
+  &:after
+    content: ""
+    width: 0
+    height: 0
+    border-right: 19px solid transparent
+    border-left: 19px solid transparent
+    border-bottom: 19px solid transparent
+    border-top: 19px solid $green
+    position: absolute
+    bottom: 15px
+    left: -10px
+    margin-left: 50%
   article
     text-align: center
     @extend .grid-33
