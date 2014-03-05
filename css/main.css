@@ -3971,8 +3971,9 @@ section {
 #advantages {
   background-color: #47cb65;
   color: #293a4d;
+  position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003142}}
 #advantages:after {
   content: "";
   width: 0;
@@ -3982,43 +3983,43 @@ section {
   border-bottom: 19px solid transparent;
   border-top: 19px solid #47cb65;
   position: absolute;
-  bottom: 15px;
+  bottom: -38px;
   left: -10px;
   margin-left: 50%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003154}}
 #advantages article {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003157}}
 #advantages article h2 {
   color: #ecf0f1;
   text-shadow: 1px 1px 0 #344960;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003159}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003160}}
 #advantages article p, #advantages article h2 {
   margin: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003162}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003163}}
 #professional {
   background-color: #39a652;
   color: #ecf0f1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003168}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003169}}
 #professional img {
   border-radius: 50%;
   box-shadow: 3px 3px 0 3px #ecf0f1;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003175}}
 #professional h3 {
   color: #293a4d;
   text-align: center;
   margin-top: 16px;
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003184}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003185}}
 #professional form input, #professional form textarea {
   display: block;
   max-width: 400px;
@@ -4027,7 +4028,7 @@ section {
   margin: 8px 0;
   border: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003191}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003192}}
 #professional form button {
   background-color: #344960;
   border: none;
@@ -4035,44 +4036,44 @@ section {
   cursor: pointer;
   color: #ecf0f1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003198}}
 #professional form button:hover {
   background-color: #293a4d;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003200}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003201}}
 #features {
   background-color: #344960;
   color: #ecf0f1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003204}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003205}}
 #features div h2 {
   color: #ecf0f1;
   margin-bottom: 16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003210}}
 #features div article h3 {
   margin: 16px 0 0 0;
   text-align: center;
   color: #47cb65;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003214}}
 #features div article h3 i {
   margin-right: 8px;
   margin-bottom: 8px;
   font-size: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003230}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003231}}
 #features div article p {
   text-align: center;
   margin: 16px 32px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003235}}
 footer {
   background-color: #293a4d;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lhguerra\/www\/politicamp-preview\/politicamp-preview\/sass\/main\.sass}line{font-family:\00003239}}
 footer > div i {
   color: #ecf0f1;
   font-size: 1.5em;
