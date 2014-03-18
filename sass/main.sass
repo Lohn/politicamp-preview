@@ -173,13 +173,6 @@ section
     padding: 0
     @extend .prefix-5
     @extend .grid-30
-  h3
-    color: $dark-blue
-    text-align: center
-    margin-top: 16px
-    display: none
-    @extend .prefix-5
-    @extend .grid-60
   form
     @extend .prefix-5
     @extend .grid-60
@@ -196,8 +189,28 @@ section
       padding: 8px
       cursor: pointer
       color: $white
+      display: block
       &:hover
         background-color: $dark-blue
+    #form-sent
+      height: 0
+      overflow: hidden
+      margin-bottom: 0
+      transition: height 300ms
+      color: $dark-blue
+      text-align: center
+      margin-top: 16px
+      @extend .prefix-5
+      @extend .grid-60
+    #form-fields
+      height: 340px
+      transition: height 300ms
+  .submitted
+    #form-fields
+      height: 0
+      overflow: hidden
+    #form-sent
+      height: 340px
 
 #features
   background-color: $blue

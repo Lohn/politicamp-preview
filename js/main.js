@@ -7,9 +7,9 @@ jQuery(document).ready(function() {
 });
 
 // Script for sent form message
-jQuery(document).ready(function() {
-  $("#professional button").click(function () {
-    $("#professional h3").css('display' , 'block');
-    $("#professional form").css('display' , 'none');
-  });
-});
+// jQuery(document).ready(function() {
+//   $("#professional button").click(function () {
+//     $("#professional h3").css('display' , 'block');
+//     $("#professional form").css('display' , 'none');
+//   });
+// });
